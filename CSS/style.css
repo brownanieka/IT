@@ -6,7 +6,7 @@
 }
 body{
     background: #080808;
-    color:  #fff;
+    color:  #fff; 
 }
 .fixed{
     position: fixed;
@@ -322,13 +322,18 @@ nav .fas{
     display: none;
 }
 @media only screen and (max-width: 600px){
+
+    #header{
+        background-image: none;
+        width: 100%;
+    }
     .header-text{
         margin-top: 100%;
         font-size: 16px; 
     }
     .display-non{
         display: none;
-        width: 70% !;
+        width: 70%;
         }
         
 
@@ -396,4 +401,21 @@ nav .fas{
     color: #61b752;
     margin-top: -40px;
     display: block;    
+}
+
+#top-scrolly{
+    display: flex;
+    text-align: center;
+    
+}
+.scroll{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.5s;
 }
